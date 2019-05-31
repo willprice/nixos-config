@@ -8,3 +8,5 @@
   * Copy nixos configuration files to `/mnt`: `cp nixos-config/* /mnt/etc/nixos`
   * Generate hardware config: `nixos-generate-config`
   * Install system: `nixos-install` (set root password)
+* Reboot
+* Set password for `will`: `passwd will`

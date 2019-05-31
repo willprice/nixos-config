@@ -12,6 +12,10 @@
 * Login as root
 * Set password for `will`: `passwd will`
 * Log out and login as `will` setting `mate+xmonad` as desktop session
+* Generate an SSH key for the new machine: `ssh-keygen`
+* [Add SSH key to github profile](https://github.com/settings/ssh/new)
+* Clone dotfiles: `git clone --recursive git@github.com:willprice/dotfiles.git ~/.dotfiles`
+* Install dotfiles: `cd ~/.dotfiles; ./install-all.sh`
 
 
 ## Cheatsheet

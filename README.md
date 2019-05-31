@@ -9,4 +9,18 @@
   * Generate hardware config: `nixos-generate-config`
   * Install system: `nixos-install` (set root password)
 * Reboot
+* Login as root
 * Set password for `will`: `passwd will`
+* Log out and login as `will` setting `mate+xmonad` as desktop session
+
+
+## Cheatsheet
+### Nix
+
+* Install a package: `nix-env -i packageName`
+* List all available packages: `nix-env -qa` (take a while to run, best of dumping this and grepping the listing)
+
+
+### NixOS
+
+* Configuration file: `/etc/nixos/configuration.nix`
